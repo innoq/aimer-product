@@ -109,7 +109,7 @@ The AI assists with structure and initial content, but **human insight and team 
 **Prompt:** [`/jtbd_workflow_chain`](prod/jtbd/jtbd_workflow_chain.md) - Complete JTBD Analysis  
 **SDLC Phase:** Research & Requirements  
 **Method:** Jobs-to-be-Done Framework  
-**Origin:** Clayton Christensen (Harvard Business School), further developed by Tony Ulwick (Outcome-Driven Innovation)  
+**Origin:** Clayton Christensen (Harvard Business School), further developed by Tony Ulwick (Outcome-Driven Innovation). Prompts based on the work of Mike Boysen (Practical Jobs to be done).
 **Purpose:** Understands the fundamental "jobs" users want to accomplish. Focuses on user motivation rather than just features and helps identify innovation opportunities.  
 **Recommended Input:** User interviews, survey data, customer support tickets, usage analytics, market research, existing product feedback
 
