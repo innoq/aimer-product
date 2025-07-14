@@ -1,7 +1,7 @@
 # AIMER Product: AI-Assisted Product Development Prompts
 
 <div align="center">
-    <img src="aimer.webp" alt="Illustration of a wooden catapult with a smiling face aimed at a stone castle tower, with colorful bandages floating above, representing AIMER's approach to structured product development" width="50%">
+    <img src="aimer.png" alt="Illustration of a wooden catapult with a smiling face aimed at a stone castle tower, with colorful bandages floating above, representing AIMER's approach to structured product development" width="50%">
 </div>
 
 ## The Challenge
