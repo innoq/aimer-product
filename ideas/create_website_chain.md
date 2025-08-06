@@ -14,7 +14,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 1: Business Research & Core Identity
 
-**Role**: Marketing strategist and business analyst
+Conduct comprehensive marketing strategy and business analysis:
 
 **Analyze and Define**:
 
@@ -28,7 +28,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 2: Content Strategy & Key Messaging
 
-**Role**: Content strategist and UX writer
+Apply content strategy and UX writing expertise:
 
 **Develop**:
 
@@ -40,7 +40,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 3: Visual Identity & Aesthetics
 
-**Role**: UI/UX designer and visual brand consultant
+Implement UI/UX design and visual brand consulting:
 
 **Create**:
 
@@ -52,7 +52,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 4: Website Design & Structure Blueprint
 
-**Role**: Web designer and UX specialist
+Apply web design and UX specialist knowledge:
 
 **Design**:
 
@@ -64,7 +64,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 5: Content Generation (Copywriting)
 
-**Role**: Professional copywriter with conversion focus
+Apply professional copywriting with conversion focus:
 
 **Write**:
 
@@ -77,7 +77,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 6: SEO Optimization & Search Console Plan
 
-**Role**: SEO specialist with Google Search Console focus
+Apply SEO specialist knowledge with Google Search Console focus:
 
 **Optimize**:
 
@@ -91,7 +91,7 @@ Execute all 7 steps sequentially, using the complete output from each step as in
 
 ### Step 7: Website Integration & Launch Checklist
 
-**Role**: Web developer and project manager
+Implement web development and project management:
 
 **Implement**:
 
