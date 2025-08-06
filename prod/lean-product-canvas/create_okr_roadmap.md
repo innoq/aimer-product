@@ -8,7 +8,6 @@ Create OKR-based roadmaps from existing hypotheses and information from Lean Pro
 
 Product teams need to bridge strategic vision with tactical execution. This tool transforms canvas insights and prioritized hypotheses into coherent quarterly roadmaps using Jeff Gothelf's methodology.
 
-**Note: While this prompt is in English, the final output should be delivered in German.**
 
 ## Instructions
 
@@ -60,45 +59,45 @@ Product teams need to bridge strategic vision with tactical execution. This tool
 
 ## Output Format
 
-Create a markdown file at `docs/product/roadmap.md` with this structure (in German):
+Create a markdown file at `docs/product/roadmap.md` with this structure:
 
 ```markdown
-# Produktroadmap: [Produktname]
+# Product Roadmap: [Product Name]
 
-## Strategie-Kontext
-[Zusammenfassung der relevantesten Informationen aus den Canvas-Dokumenten]
+## Strategy Context
+[Summary of the most relevant information from canvas documents]
 
-## Objektiv
-[Das übergeordnete qualitative Ziel]
+## Objective
+[The overarching qualitative goal]
 
-## Roadmap nach Quartalen
+## Roadmap by Quarter
 
 ### Q1
-**Key Result 1:** [Wer tut was um wie viel?]
+**Key Result 1:** [Who does what by how much?]
 
-**Hypothesen:**
-- [Vorhandene Hypothese 1]
-- [Vorhandene Hypothese 2]
+**Hypotheses:**
+- [Existing Hypothesis 1]
+- [Existing Hypothesis 2]
 
-**Discovery-Fragen:**
-- [Frage 1]
-- [Frage 2]
+**Discovery Questions:**
+- [Question 1]
+- [Question 2]
 
 ### Q2
-**Key Result 2:** [Wer tut was um wie viel?]
+**Key Result 2:** [Who does what by how much?]
 
-**Hypothesen:**
-- [Vorhandene Hypothese 3]
+**Hypotheses:**
+- [Existing Hypothesis 3]
 
-**Discovery-Fragen:**
-- [Frage 3]
+**Discovery Questions:**
+- [Question 3]
 
 ### Q3-Q4
-**Potenzielle zukünftige Key Results:**
-- [Vorläufige Ideen für zukünftige Key Results]
+**Potential Future Key Results:**
+- [Preliminary ideas for future Key Results]
 
-## Überprüfungszyklus
-Diese Roadmap wird quartalsweise überprüft und angepasst, basierend auf den Erkenntnissen aus der Discovery-Arbeit und den erreichten Ergebnissen.
+## Review Cycle
+This roadmap will be reviewed and adjusted quarterly, based on insights from discovery work and achieved results.
 ```
 
 ## Success Criteria

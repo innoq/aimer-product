@@ -8,7 +8,6 @@ Create comprehensive Lean Product Canvases using Jeff Gothelf's methodology to i
 
 Product teams need a structured approach to connect business problems to user needs and potential solutions. This tool guides the creation of Lean Product Canvases that translate vague ideas into concrete, testable hypotheses for product decisions.
 
-**Note: While this prompt is in English, the final output should be delivered in German.**
 
 ## Instructions
 

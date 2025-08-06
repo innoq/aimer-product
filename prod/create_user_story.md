@@ -129,14 +129,14 @@ As a Knowledge Manager, I want to categorize prompts according to various criter
 
 ## Affected Personas
 
-- Sabine Strukturiererin (docs/product/personas/01-sabine-strukturiererin.md)
-- Marco Spontanplaner (docs/product/personas/02-marco-spontanplaner.md)
-- Lena Netzwerkerin (docs/product/personas/03-lena-netzwerkerin.md)
+- Sabine Structure-Focused (docs/product/personas/01-sabine-structure-focused.md)
+- Marco Spontaneous-Planner (docs/product/personas/02-marco-spontaneous-planner.md)
+- Lena Network-Builder (docs/product/personas/03-lena-network-builder.md)
 
 ## User Journey Reference
 
-- "Familie entdeckt klyngl über Instagram" (docs/product/user-journeys/00-klyngl-ueber-instagram-entdecken.md)
-- "Family Assessment durchlaufen" (docs/product/user-journeys/01-family-assessment-durchlaufen.md)
+- "Family discovers platform through Instagram" (docs/product/user-journeys/00-discover-platform-via-instagram.md)
+- "Complete Family Assessment" (docs/product/user-journeys/01-complete-family-assessment.md)
 
 ## UX Documentation
 

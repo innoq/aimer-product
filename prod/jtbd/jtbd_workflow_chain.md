@@ -12,10 +12,10 @@ The JTBD workflow enables systematic analysis of user jobs through modular promp
 
 ### Language Guidelines
 
-- Use exclusively inclusive language and correct gendering
+- Use exclusively inclusive language and correct gender-neutral terminology
 - Use gender-neutral formulations like "users", "applicants" or "people"
-- Use the gender asterisk (*) when gender-neutral formulations are not possible
-- Examples: "user*s", "developer*s", "applicant*s"
+- Use inclusive plural forms when gender-neutral formulations are not possible
+- Examples: "users", "developers", "applicants"
 
 ### Input Variables
 
@@ -160,7 +160,7 @@ Before starting each JTBD analysis session:
     - Output: Comprehensive JTBD survey
     - Purpose: Enables quantitative validation
 
-## Ergebnisintegration
+## Result Integration
 
 ## Output Format
 
@@ -187,7 +187,7 @@ Each analysis document contains:
 ## Success Criteria
 
 - Complete JTBD documentation with all desired analysis steps
-- Consistent use of inclusive language and correct gendering
+- Consistent use of inclusive language and correct gender-neutral terminology
 - Updated index document with all links and progress indicators
 - Structured storage of all results under `docs/domain/jtbd/`
 

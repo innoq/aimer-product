@@ -8,7 +8,6 @@ Create focused Lean Strategy Canvases for 12-18 month strategic planning by iden
 
 Product teams need strategic clarity to align on goals, understand challenges, and create actionable plans. This tool helps translate vague strategic intentions into concrete, measurable objectives with coherent strategies.
 
-**Note: While this prompt is in English, the final output should be delivered in German.**
 
 ## Instructions
 
@@ -54,30 +53,30 @@ Product teams need strategic clarity to align on goals, understand challenges, a
 
 ## Output Format
 
-Create a markdown file at `docs/product/lean_strategy_canvas.md` with this structure (in German):
+Create a markdown file at `docs/product/lean_strategy_canvas.md` with this structure:
 
 ```markdown
-# Lean Strategy Canvas: [Produktname]
+# Lean Strategy Canvas: [Product Name]
 
-## Ziel
-[Beschreibung des übergeordneten 12-18 Monatsziel]
+## Goal
+[Description of the overarching 12-18 month goal]
 
-## Hindernis
-[Beschreibung der größten Herausforderung]
+## Obstacle
+[Description of the biggest challenge]
 
-## Strategie
-[Beschreibung des strategischen Ansatzes]
-- Wo wir aktiv werden: [Zielmarkt/Zielsegment]
-- Wie wir gewinnen: [Differenzierungsfaktoren]
-- Strategische Richtlinien: [Konkrete Richtlinien und geplante Maßnahmen]
+## Strategy
+[Description of the strategic approach]
+- Where we play: [Target market/target segment]
+- How we win: [Differentiating factors]
+- Strategic guidelines: [Concrete guidelines and planned actions]
 
-## Objectives und Key Results
-**Objektiv:** [Qualitatives, inspirierendes Zukunftsbild]
+## Objectives and Key Results
+**Objective:** [Qualitative, inspirational future vision]
 
 **Key Results:**
-- [Wer tut was um wie viel?]
-- [Wer tut was um wie viel?]
-- [Wer tut was um wie viel?]
+- [Who does what by how much?]
+- [Who does what by how much?]
+- [Who does what by how much?]
 ```
 
 ## Success Criteria
