@@ -4,7 +4,9 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - "commands/**.md"
+      - "experiment/**.md"
+      - "ideas/**.md"
+      - "prod/**.md"
       - "prompt-guideline.md"
 
 jobs:
