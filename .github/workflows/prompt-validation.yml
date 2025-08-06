@@ -1,0 +1,51 @@
+name: Prompt Validation
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - "commands/**.md"
+      - "prompt-guideline.md"
+
+jobs:
+  validate-prompts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude validation
+        uses: anthropics/claude-code-action@beta
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          direct_prompt: |
+            Review this pull request specifically for "AIMER Product" prompt quality compliance.
+
+            Focus ONLY on changed files in the commands/ directory that end with .md
+
+            For each changed prompt file:
+            1. Read and analyze it against the guidelines in @prompt-guideline.md
+            2. Check for ALL of the requirements in @prompt-guideline.md
+
+            Provide a detailed validation report with:
+            - File name and validation status (✅ PASS / ❌ FAIL / ⚠️ WARNING)
+            - Specific issues found with line numbers where possible
+            - Constructive suggestions for fixing any issues
+
+            Start your review with:
+            ## 🔍 AIMER Product Prompt Quality Validation
+
+            If all prompts pass: "✅ All prompt changes comply with AIMER guidelines!"
+            If issues found: List each issue clearly with actionable feedback.
+
+            Be helpful and specific - the goal is to maintain high-quality, consistent prompts across the repository.
