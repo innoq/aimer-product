@@ -40,7 +40,7 @@ Each canvas command will guide you through the relevant process step by step and
 - User selects appropriate canvas type for their current needs
 - Clear guidance provided for each canvas option
 - Proper command execution leads to structured output
-- All canvas outputs are in German and saved as Markdown documents
+- All canvas outputs are saved as Markdown documents
 - Documents include proper metadata, versioning, and date information
 
 $ARGUMENTS
