@@ -6,7 +6,7 @@ Explore various professional contexts and generate a list of potential work envi
 
 ## Context
 
-Context refers to the surrounding information necessary to understand and solve a problem. Use inclusive language and correct gendering throughout the analysis.
+Context refers to the surrounding information necessary to understand and solve a problem. Use inclusive language throughout the analysis.
 
 ### Context Definition
 
@@ -34,10 +34,10 @@ In the problem-solving domain, context includes:
 
 ### Language Guidelines
 
-- Use exclusively inclusive language and correct gendering
-- Use gender-neutral formulations like "users", "applicants" or "people"
-- Use the gender asterisk (*) when gender-neutral formulations are not possible
-- Examples: "user*s", "developer*s", "applicant*s"
+- Use exclusively inclusive language throughout
+- Use gender-neutral formulations like "users", "applicants", or "people"
+- Avoid gendered assumptions and use inclusive terms for all roles
+- Examples: "users", "developers", "applicants", "team members", "individuals"
 
 ### Analysis Steps
 
@@ -89,7 +89,7 @@ In the problem-solving domain, context includes:
 ## Success Criteria
 
 - Complete list of relevant job contexts
-- Consistent use of inclusive language and correct gendering
+- Consistent use of inclusive language
 - Clear explanations for each context
 - Structured documentation with all required information
 

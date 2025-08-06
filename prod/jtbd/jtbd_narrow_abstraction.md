@@ -31,10 +31,10 @@ Analyze the provided parameters and identify obstacles based on the following gu
 
 ### Language Guidelines
 
-- Use exclusively inclusive language and correct gendering
-- Use gender-neutral formulations like "users", "applicants" or "people"
-- Use the gender asterisk (*) when gender-neutral formulations are not possible
-- Examples: "user*s", "developer*s", "applicant*s"
+- Use exclusively inclusive language throughout
+- Use gender-neutral formulations like "users", "applicants", or "people"
+- Avoid gendered assumptions and use inclusive terms for all roles
+- Examples: "users", "developers", "applicants", "team members", "individuals"
 
 ## Output Format
 

@@ -6,16 +6,16 @@ Identify and analyze the most important jobs and their performers in a specific 
 
 ## Context
 
-The identification of jobs and their performers is the first step in developing complete JTBD documentation. Use inclusive language and correct gendering throughout the analysis.
+The identification of jobs and their performers is the first step in developing complete JTBD documentation. Use inclusive language throughout the analysis.
 
 ## Instructions
 
 ### Language Guidelines
 
-- Use exclusively inclusive language and correct gendering
-- Use gender-neutral formulations like "users", "applicants" or "people"
-- Use the gender asterisk (*) when gender-neutral formulations are not possible
-- Examples: "user*s", "developer*s", "applicant*s"
+- Use exclusively inclusive language throughout
+- Use gender-neutral formulations like "users", "applicants", or "people"
+- Avoid gendered assumptions and use inclusive terms for all roles
+- Examples: "users", "developers", "applicants", "team members", "individuals"
 
 ### Analysis Steps
 
@@ -86,7 +86,7 @@ The identification of jobs and their performers is the first step in developing 
 ## Success Criteria
 
 - Complete identification of all important jobs in the domain
-- Consistent use of inclusive language and correct gendering
+- Consistent use of inclusive language
 - Clear categorization and prioritization of jobs
 - Structured documentation with all required information
 
