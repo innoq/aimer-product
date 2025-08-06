@@ -72,34 +72,34 @@ Product teams need a structured approach to connect business problems to user ne
 
 ## Output Format
 
-Create a markdown file at `docs/product/lean_product_canvas.md` with this structure (in German):
+Create a markdown file at `docs/product/lean_product_canvas.md` with this structure:
 
 ```markdown
-# Lean Product Canvas: [Produktname]
+# Lean Product Canvas: [Product Name]
 
-## Geschäftsproblem
-[Beschreibung des zentralen Geschäftsproblems]
+## Business Problem
+[Description of the central business problem]
 
-## Geschäftsergebnisse
-[Messbare Geschäftsergebnisse und Metriken]
+## Business Outcomes
+[Measurable business outcomes and metrics]
 
-## Nutzer
-[Beschreibung der Nutzer-Personas]
+## Users
+[Description of user personas]
 
-## Nutzen & Vorteile
-[Jobs-to-be-Done und Nutzenversprechen]
+## Benefits & Value
+[Jobs-to-be-Done and value propositions]
 
-## Lösungen
-[Potenzielle Lösungsansätze]
+## Solutions
+[Potential solution approaches]
 
-## Hypothesen
-[Testbare Hypothesen im Format "Wir glauben, dass [Geschäftsergebnis] erreicht wird, wenn [Nutzer] [Vorteil] durch [Feature] erlangt"]
+## Hypotheses
+[Testable hypotheses in format "We believe that [business outcome] will be achieved if [user] attains [benefit] through [feature]"]
 
-## Lernprioritäten
-[Wichtigste zu testende Annahmen und Risiken]
+## Learning Priorities
+[Most important assumptions and risks to test]
 
-## Minimaler Lernaufwand
-[Leichtgewichtige Experimente zur Validierung]
+## Minimum Learning Effort
+[Lightweight experiments for validation]
 ```
 
 ## Success Criteria

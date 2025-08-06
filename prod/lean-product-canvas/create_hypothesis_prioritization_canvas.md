@@ -8,7 +8,6 @@ Create systematic hypothesis prioritization canvases that evaluate product hypot
 
 Product teams often struggle with too many hypotheses and limited resources. This tool helps objectively evaluate hypotheses using a 2x2 matrix (value vs. risk) to create actionable prioritization decisions based on Jeff Gothelf's Lean UX methodology.
 
-**Note: While this prompt is in English, the final output should be delivered in German.**
 
 ## Instructions
 
@@ -50,51 +49,51 @@ Product teams often struggle with too many hypotheses and limited resources. Thi
 
 ## Output Format
 
-Create a markdown file at `docs/product/hypothesis_prioritization_canvas.md` with this structure (in German):
+Create a markdown file at `docs/product/hypothesis_prioritization_canvas.md` with this structure:
 
 ```markdown
-# Hypothesen-Priorisierungs-Canvas: [Projektname]
+# Hypothesis Prioritization Canvas: [Project Name]
 
-## Projektdetails
-- **Projektname:** [Name]
-- **Datum:** [Datum]
-- **Iteration:** [Nummer]
+## Project Details
+- **Project Name:** [Name]
+- **Date:** [Date]
+- **Iteration:** [Number]
 
-## Hypothesen-Bewertung
+## Hypothesis Evaluation
 
-### Quadrant 1: Testen (Hoher Wert, Hohes Risiko)
-**Hypothese 1:** [Hypothesenaussage]
-- **Wert:** Hoch - [Begründung]
-- **Risiko:** Hoch - [Begründung]
-- **Unsicherheiten:** [Hauptunsicherheiten]
-- **Testansatz:** [Vorgeschlagenes Experiment]
+### Quadrant 1: Test (High Value, High Risk)
+**Hypothesis 1:** [Hypothesis statement]
+- **Value:** High - [Justification]
+- **Risk:** High - [Justification]
+- **Uncertainties:** [Main uncertainties]
+- **Testing Approach:** [Proposed experiment]
 
-### Quadrant 2: Umsetzen & Messen (Hoher Wert, Niedriges Risiko)
-**Hypothese 2:** [Hypothesenaussage]
-- **Wert:** Hoch - [Begründung]
-- **Risiko:** Niedrig - [Begründung]
-- **Metriken:** [Erfolgsmessgrößen]
+### Quadrant 2: Ship & Measure (High Value, Low Risk)
+**Hypothesis 2:** [Hypothesis statement]
+- **Value:** High - [Justification]
+- **Risk:** Low - [Justification]
+- **Metrics:** [Success measures]
 
-### Quadrant 3: Nicht testen (Niedriger Wert, Niedriges Risiko)
-**Hypothese 3:** [Hypothesenaussage]
-- **Wert:** Niedrig - [Begründung]
-- **Risiko:** Niedrig - [Begründung]
-- **Entscheidung:** [Grundlage oder Verwerfen]
+### Quadrant 3: Don't Test (Low Value, Low Risk)
+**Hypothesis 3:** [Hypothesis statement]
+- **Value:** Low - [Justification]
+- **Risk:** Low - [Justification]
+- **Decision:** [Foundation or Discard]
 
-### Quadrant 4: Verwerfen (Niedriger Wert, Hohes Risiko)
-**Hypothese 4:** [Hypothesenaussage]
-- **Wert:** Niedrig - [Begründung]
-- **Risiko:** Hoch - [Begründung]
-- **Ursprüngliche Motivation:** [Warum wurde diese Hypothese in Betracht gezogen]
-- **Grund für Verwerfung:** [Warum verwerfen wir sie jetzt]
+### Quadrant 4: Discard (Low Value, High Risk)
+**Hypothesis 4:** [Hypothesis statement]
+- **Value:** Low - [Justification]
+- **Risk:** High - [Justification]
+- **Original Motivation:** [Why was this hypothesis considered]
+- **Reason for Discarding:** [Why are we discarding it now]
 
-## Nächste Schritte
-1. [Spezifische Aktion für Hypothese X]
-2. [Spezifische Aktion für Hypothese Y]
-3. [Spezifische Aktion für Hypothese Z]
+## Next Steps
+1. [Specific action for Hypothesis X]
+2. [Specific action for Hypothesis Y]
+3. [Specific action for Hypothesis Z]
 
-## Überprüfungszeitplan
-Dieser Canvas wird nach Abschluss der ersten Testreihe oder in [Zeitraum] überprüft.
+## Review Schedule
+This canvas will be reviewed after completion of the first test series or in [timeframe].
 ```
 
 ## Success Criteria

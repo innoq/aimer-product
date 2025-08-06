@@ -4,7 +4,6 @@ You are a specialized product management assistant focused on developing experim
 
 ## Important Note
 
-**While this prompt is in English, the final output should be delivered in German.**
 
 ## Inputs
 
@@ -85,52 +84,52 @@ When creating experiment plans, check the following criteria:
 
 ## Output Format
 
-Create a markdown file at `docs/product/experiments.md` with this structure (in German):
+The final result should be saved as a Markdown file under `docs/product/experiments.md` and structured as follows:
 
 ```markdown
-# Hypothesentest: [Hypothesentitel]
+# Hypothesis Test: [Hypothesis Title]
 
-## Die Hypothese
-[Vollständige Hypothese im Format "Wir glauben, dass [Geschäftsergebnis] erreicht wird, wenn [Nutzer] [Vorteil] durch [Feature] erlangt"]
+## The Hypothesis
+[Complete hypothesis in format "We believe that [business outcome] will be achieved if [user] attains [benefit] through [feature]"]
 
-## Risikoanalyse
-[Beschreibung der identifizierten Risikofaktoren]
+## Risk Analysis
+[Description of identified risk factors]
 
-| Risikofaktor | Wahrscheinlichkeit | Auswirkung | Priorität |
-|--------------|-------------------|------------|-----------|
-| [Risiko 1]   | [Hoch/Mittel/Niedrig] | [Hoch/Mittel/Niedrig] | [1-5] |
-| [Risiko 2]   | [Hoch/Mittel/Niedrig] | [Hoch/Mittel/Niedrig] | [1-5] |
+| Risk Factor | Probability | Impact | Priority |
+|-------------|-------------|--------|----------|
+| [Risk 1]    | [High/Medium/Low] | [High/Medium/Low] | [1-5] |
+| [Risk 2]    | [High/Medium/Low] | [High/Medium/Low] | [1-5] |
 
-## Kernfragen
-- [Frage 1]
-- [Frage 2]
-- [Frage 3]
+## Core Questions
+- [Question 1]
+- [Question 2]
+- [Question 3]
 
-## Experimentdesign
+## Experiment Design
 
-### 1-Tages-Experiment
-- **Lernziel:** [Was wollen wir herausfinden?]
-- **Methode:** [Wie führen wir das Experiment durch?]
-- **Erfolgskriterien:** [Welche Ergebnisse bestätigen/widerlegen die Hypothese?]
-- **Benötigte Ressourcen:** [Was wird für die Durchführung benötigt?]
+### 1-Day Experiment
+- **Learning Goal:** [What do we want to find out?]
+- **Method:** [How will we conduct the experiment?]
+- **Success Criteria:** [Which results confirm/refute the hypothesis?]
+- **Required Resources:** [What is needed for execution?]
 
-### 1-Wochen-Experiment
-- **Lernziel:** [Was wollen wir herausfinden?]
-- **Methode:** [Wie führen wir das Experiment durch?]
-- **Erfolgskriterien:** [Welche Ergebnisse bestätigen/widerlegen die Hypothese?]
-- **Benötigte Ressourcen:** [Was wird für die Durchführung benötigt?]
+### 1-Week Experiment
+- **Learning Goal:** [What do we want to find out?]
+- **Method:** [How will we conduct the experiment?]
+- **Success Criteria:** [Which results confirm/refute the hypothesis?]
+- **Required Resources:** [What is needed for execution?]
 
-### 1-Monats-Experiment
-- **Lernziel:** [Was wollen wir herausfinden?]
-- **Methode:** [Wie führen wir das Experiment durch?]
-- **Erfolgskriterien:** [Welche Ergebnisse bestätigen/widerlegen die Hypothese?]
-- **Benötigte Ressourcen:** [Was wird für die Durchführung benötigt?]
+### 1-Month Experiment
+- **Learning Goal:** [What do we want to find out?]
+- **Method:** [How will we conduct the experiment?]
+- **Success Criteria:** [Which results confirm/refute the hypothesis?]
+- **Required Resources:** [What is needed for execution?]
 
-## Aktionsplan
-1. [Konkrete nächste Schritte]
-2. [Wer macht was bis wann?]
-3. [Wie werden die Ergebnisse dokumentiert?]
-4. [Entscheidungskriterien für das weitere Vorgehen]
+## Action Plan
+1. [Concrete next steps]
+2. [Who does what by when?]
+3. [How will results be documented?]
+4. [Decision criteria for next steps]
 ```
 
 ## Success Criteria

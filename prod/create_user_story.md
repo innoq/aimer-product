@@ -44,15 +44,11 @@ You should also consider:
 - Product backlog in `docs/product/backlog.md`
 - UX documentation in `docs/` (if available)
 
-User stories should follow the standard format but with gender-inclusive and diverse language:
-"Als [Benutzer*in/Rolle] möchte ich [eine Aktion] können, damit [ein Nutzen/ein Wert]."
-(German language format with gender-inclusive terms: "As a [type of user], I want [an action] so that [a benefit/a value].")
+User stories should follow the standard format with gender-inclusive and diverse language:
+"As [type of user], I want [an action] so that [a benefit/a value]."
 
 IMPORTANT: Always use gender-inclusive language in your user stories. For example:
 
-- Use "Benutzer\*in" instead of "Benutzer"
-- Use "Nutzer\*in" instead of "Nutzer"
-- Use "Manager\*in" instead of "Manager"
 - Use gender-neutral job titles and roles when possible
 - Use diverse and inclusive examples in your descriptions
 - Avoid gender stereotypes in personas and scenarios
@@ -82,25 +78,25 @@ Follow these steps to create user stories:
 Each story should have this structure:
 
 ```
-## Beschreibung
-Als [Benutzertyp] möchte ich [eine Aktion] können, damit [ein Nutzen/ein Wert].
+## Description
+As [user type], I want [an action] so that [a benefit/a value].
 
-## Akzeptanzkriterien
-1. [Kriterium 1]
-2. [Kriterium 2]
-3. [Kriterium 3]
+## Acceptance Criteria
+1. [Criterion 1]
+2. [Criterion 2]
+3. [Criterion 3]
 ...
 
-## Bezug zu JTBD
+## JTBD Reference
 - [Reference to relevant jobs-to-be-done from docs/domain/jtbd/]
 
-## Betroffene Personas
+## Affected Personas
 - [List of personas affected by this story from docs/product/personas/]
 
-## Bezug zu User Journeys
+## User Journey Reference
 - [Reference to specific user journeys from docs/product/user-journeys/]
 
-## UX-Dokumentation
+## UX Documentation
 - [Reference to relevant UX documentation with relative paths from docs/]
 
 ## Implementation Scope
@@ -114,35 +110,35 @@ Here's an example of a well-formed user story for this app:
 
 <example_story>
 
-## Beschreibung
+## Description
 
-Als Knowledge Manager möchte ich Prompts nach verschiedenen Kriterien kategorisieren können, damit ich eine strukturierte Promptbibliothek aufbauen und pflegen kann.
+As a Knowledge Manager, I want to categorize prompts according to various criteria so that I can build and maintain a structured prompt library.
 
-## Akzeptanzkriterien
+## Acceptance Criteria
 
-1. Benutzer können benutzerdefinierte Tags für Prompts erstellen und zuweisen.
-2. Benutzer können Prompts nach Tags filtern und sortieren.
-3. Benutzer können die Kategoriestruktur jederzeit anpassen und erweitern.
-4. Benutzer können Tags mit Farben oder Icons versehen, um die visuelle Unterscheidung zu erleichtern.
-5. Benutzer können verschachtelte Kategorien erstellen, um eine Hierarchie zu bilden.
+1. Users can create and assign custom tags to prompts.
+2. Users can filter and sort prompts by tags.
+3. Users can adjust and extend the category structure at any time.
+4. Users can provide tags with colors or icons to facilitate visual distinction.
+5. Users can create nested categories to form a hierarchy.
 
-## Bezug zu JTBD
+## JTBD Reference
 
-- "Wenn ich als Familie unsere Organisation verbessern möchte, will ich eine übersichtliche Kategorisierung, damit ich ähnliche Bereiche leicht finden kann."
-- "Wenn ich nach Lösungen für unsere Familien-Herausforderungen suche, möchte ich nach relevanten Kategorien filtern können, damit ich die passenden Ansätze schneller finde."
+- "When I want to improve our family organization, I want a clear categorization so I can easily find similar areas."
+- "When I search for solutions to our family challenges, I want to be able to filter by relevant categories so I can find the right approaches faster."
 
-## Betroffene Personas
+## Affected Personas
 
 - Sabine Strukturiererin (docs/product/personas/01-sabine-strukturiererin.md)
 - Marco Spontanplaner (docs/product/personas/02-marco-spontanplaner.md)
 - Lena Netzwerkerin (docs/product/personas/03-lena-netzwerkerin.md)
 
-## Bezug zu User Journeys
+## User Journey Reference
 
 - "Familie entdeckt klyngl über Instagram" (docs/product/user-journeys/00-klyngl-ueber-instagram-entdecken.md)
 - "Family Assessment durchlaufen" (docs/product/user-journeys/01-family-assessment-durchlaufen.md)
 
-## UX-Dokumentation
+## UX Documentation
 
 - Product Vision (docs/product/product-vision.md)
 - Marketing Tone and Voice (docs/marketing/tone-and-voice.md)
@@ -154,7 +150,7 @@ MVP
 
 Remember to:
 
-- Write user stories in German using gender-inclusive and diverse language (use \* for gender-inclusive terms).
+- Write user stories using gender-inclusive and diverse language.
 - Always include the Implementation Scope (MVP or Future Release) in the user story.
 - Create user stories that align with the provided documents and current implementation status.
 - Ensure each story is independent, valuable, and testable.
@@ -169,4 +165,4 @@ Remember to:
 
 Begin creating your user stories now, using the provided context as guidance.
 
-**WICHTIG**: Nachdem Sie die User Story erstellt haben, fügen Sie diese in das lokale Backlog (`docs/product/backlog.md`) und erstellen Sie eine entsprechende User Story Datei im `docs/product/user-stories/` Verzeichnis mit einem fortlaufenden Index (z.B. `46-neue-user-story.md`).
+**IMPORTANT**: After you have created the user story, add it to the local backlog (`docs/product/backlog.md`) and create a corresponding user story file in the `docs/product/user-stories/` directory with a sequential index (e.g. `46-new-user-story.md`).
