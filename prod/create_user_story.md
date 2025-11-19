@@ -116,42 +116,35 @@ As [user type], I want [an action] so that [a benefit/a value].
 ### Example User Story
 
 <example_story>
+# User Story AR004: Location Selection
 
 ## Description
-
-As a Knowledge Manager, I want to categorize prompts according to various criteria so that I can build and maintain a structured prompt library.
+As an INNOQ employee, I want to be able to choose from all INNOQ locations so that I can work flexibly.
 
 ## Acceptance Criteria
+1. Users can select from a list of all INNOQ locations
+2. Users can see the availability of workspaces per location
+3. Users can set their preferred location as default
+4. Users can search multiple locations simultaneously
+5. Users receive basic information about each location (address, opening hours)
 
-1. Users can create and assign custom tags to prompts.
-2. Users can filter and sort prompts by tags.
-3. Users can adjust and extend the category structure at any time.
-4. Users can provide tags with colors or icons to facilitate visual distinction.
-5. Users can create nested categories to form a hierarchy.
-
-## JTBD Reference
-
-- "When I want to improve our family organization, I want a clear categorization so I can easily find similar areas."
-- "When I search for solutions to our family challenges, I want to be able to filter by relevant categories so I can find the right approaches faster."
+## JTBD Connection
+- Job 7: "When I work as a flexible worker, I want to be able to choose between different locations so that I can work optimally for my appointments"
+- Job 8: "When I work across locations, I want to see all available options so that I can make the best choice"
 
 ## Affected Personas
+- Thomas Müller - The Location Nomad (docs/product/personas/proto-personas.md)
+- Marc Schneider - The Flexible Improviser (docs/product/personas/proto-personas.md)
 
-- Sabine Structure-Focused (docs/product/personas/01-sabine-structure-focused.md)
-- Marco Spontaneous-Planner (docs/product/personas/02-marco-spontaneous-planner.md)
-- Lena Network-Builder (docs/product/personas/03-lena-network-builder.md)
-
-## User Journey Reference
-
-- "Family discovers platform through Instagram" (docs/product/user-journeys/00-discover-platform-via-instagram.md)
-- "Complete Family Assessment" (docs/product/user-journeys/01-complete-family-assessment.md)
+## Related User Journeys
+- Sandra's Weekly Planning (docs/product/user-journeys/user-journey-sandra-wochenplanung.md)
 
 ## UX Documentation
-
 - Product Vision (docs/product/product-vision.md)
-- Marketing Tone and Voice (docs/marketing/tone-and-voice.md)
+- Information Architecture (docs/ux/information-architecture.md)
+- Technical Implementation (docs/ux/technical-implementation.md)
 
 ## Implementation Scope
-
 MVP
 </example_story>
 
